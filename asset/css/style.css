@@ -9,13 +9,13 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
 }
 .container{
-  max-width: 1450px;
- 
+  max-width: 1350px;
+  
 }
 
 .navbar .container{
   border-bottom: 1px solid rgb(196, 191, 191);
-  width: 90%;
+  width: 92%;
 
 }
 
@@ -206,7 +206,7 @@ bottom: 0%;
 .international-image-1 img{
   height: 250px;
   width: 90%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .international-image-2 img{
   border: 1px solid black;
@@ -249,4 +249,81 @@ color: #3e5a92;
 }
 .international-main .regional-content  p{
   width: 40%;
+    /* margin: auto; */
+}
+.pre-footer .container{
+  
+  border-top: 3px solid black;
+  width: 92%;
+  position: relative;
+}
+
+.footer-logo img{
+  width: 100%;
+}
+.footer-logo-text p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.find-on-ccme h1{
+  font-size: 15px;
+  font-weight: 700;
+  color: #3e5a92;
+  margin-bottom: 5px;
+}
+
+.find-on-ccme li{
+ list-style: none;
+ 
+}
+.find-on-ccme a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  
+}
+.contact-us li{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px;
+  
+}
+.follow-us{
+position: absolute;
+bottom: 5%;
+}
+.follow-us i{
+font-size: 30px;
+margin-top: 5px;
+color: #696a6c;
+margin: 3px;
+}
+.footer .container{
+  border-top: 1px solid gray;
+  width: 92%;
+
+}
+.footer p{
+  text-align: center;
+  margin: 5px;
+  font-size: 10px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* About-page-css */
+
+.about-main .container{
+  width: 92%;
+  margin-top: 10px;
+}
+.about-heading h1{
+  font-size: 35px;
+  font-weight: 600;
+ color: #3e5a92;
 }
