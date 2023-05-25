@@ -321,9 +321,94 @@ margin: 3px;
 .about-main .container{
   width: 92%;
   margin-top: 10px;
+  position: relative;
 }
 .about-heading h1{
   font-size: 35px;
   font-weight: 600;
  color: #3e5a92;
+}
+.about-para i{
+text-align: end;
+}
+.about-sub-heading h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.about-border{
+  border-bottom: 1px solid grey;
+}
+.About-main-content img{
+  width: 100%;
+  height: 350px;
+
+}
+.About-main-text{
+position: absolute;
+top: 60%;
+transform: translateY(-86%);
+margin: auto;
+width: 60%;
+color: #fff;
+left: 2rem;
+bottom: 0%;
+
+}
+.About-main-text h1{
+  font-size: 20px;
+}
+.About-main-text p{
+  font-size: 10px;
+  margin-top: 5px;
+  /* width: 60%; */
+}
+.about-paragraph p{
+  font-size: 17px;
+  font-weight: 600;
+ 
+}
+
+.para-text p{
+width: 70%;
+}
+.para-text img{
+  width: 30%;
+  height: 280px;
+}
+.sidebar{
+  border-bottom: 1px solid black;
+  /* padding: 5px; */
+  
+}
+.sidebar-content img{
+  width: 40%;
+   height: 80px;
+   object-fit: cover;
+   margin-bottom: 10px;
+}
+.sidebar-content p{
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.sidebar-content-1{
+  border-bottom: 6px solid black;
+}
+.sidebar-image-2 img{
+  border: 1px solid black;
+  height: 300px;
+}
+.bottom-content .container{
+  width: 92%;
+  border-top: 1px solid grey;
+}
+.bottom-image img{
+  width: 40%;
+  height: 110px;
+  object-fit: cover;
+}
+.bottom-image p{
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
 }
