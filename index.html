@@ -18,7 +18,7 @@
 <body>
 
   <!-- navbar-start  -->
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light topBar">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav m-auto ">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Advertise</a>
@@ -62,7 +62,7 @@
     <div class="container">
       <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 
-      <img src="asset/images/logo.png" class="" alt="">
+     <a href="index.html"><img src="asset/images/logo.png" class="" alt=""></a> 
 
       <p>Monday, May 22, 2023</p>
 
@@ -74,11 +74,10 @@
   <!-- navbar-second-start  -->
   <nav class="under-navbar navbar navbar-expand-xl navbar-light d-flex justify-content-between">
     <div class="container ">
-      <div class="font ">
-        <span class="facebook"><i class="fab fa-facebook-square"></i></span>
-        <span class="twitter"><i class="fab fa-twitter-square"></i></span>
-        <span class="linkedin twitter"><i class="fab fa-linkedin"></i></span>
-
+      <div class="sociallinks">
+        <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" class="twitter"><i class="fab fa-twitter-square"></i></a>
+        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,7 +86,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav m-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link active" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">News</a>
@@ -112,10 +111,9 @@
           </li>
 
         </ul>
-        <div class="search ">
-
-          <span class="input-group-text" id="basic-addon1"><i class="fas fa-search "></i></span>
-        </div>
+        <button class="search ">
+          <i class="fas fa-search "></i>
+        </button>
       </div>
     </div>
   </nav>
@@ -194,106 +192,69 @@
 
 
 
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
-    </div>
-
-    </div>
     </div>
   </section>
 
   <!-- Swiper-section-end  -->
 
   <!-- regional-news-start -->
-  <div class="regional mb-3">
+  <div class="regional regional1 mb-3 mt-3">
     <div class="container">
       <div class="row">
-        <!-- <section class="regional-heading mt-2">
-          <h1>Regional News</h1>
-        </section>
-        
-
-        <div class="col-md-3">
-          
-          <div class="regional-content mt-4">
-            <img src="asset/images/main-cards.png" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-          </div>
-
-          <div class="regional-content mt-5">
-            <img src="asset/images/main-cards.png" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-          </div>
-
-          <div class="regional-content mt-5">
-            <img src="asset/images/main-cards.png" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-          </div>
-        </div>
-
-
-        <div class="col-md-3">
-          <div class="regional-content mt-4">
-            <img src="asset/images/main-cards.png" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-          </div>
-
-          <div class="regional-content mt-5">
-            <img src="asset/images/main-cards.png" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-          </div>
-
-          <div class="regional-content mt-5">
-            <img src="asset/images/main-cards.png" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-          </div>
-        </div> -->
+       
 
         <div class="col-md-6 p-4 ">
           <h1>Regional News</h1>
-          <div class="regional-content mt-4">
+<div class="regional-content-box">
+          <div class="regional-content">
             <img src="asset/images/main-cards.png" alt="">
             <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+          </div>
 
+          <div class="regional-content">
+            <img src="asset/images/main-cards.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+          </div>
 
-
+          <div class="regional-content">
             <img src="asset/images/main-cards.png" alt="">
             <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
 
           </div>
 
-          <div class="regional-content mt-5">
-            <img src="asset/images/main-cards.png" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
+          <div class="regional-content">
             <img src="asset/images/main-cards.png" alt="">
             <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
           </div>
 
-          <div class="regional-content border-0 mt-5">
+          <div class="regional-content ">
             <img src="asset/images/main-cards.png" alt="">
             <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+          </div>
 
+          <div class="regional-content">
 
             <img src="asset/images/main-cards.png" alt="">
             <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
           </div>
 
         </div>
-
+      </div>
         <div class="col-md-6">
           <div class="regional-image mt-4">
             <img src="asset/images/main-back.png" alt="">
+            <div class="regional-text">
+              <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
+                ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
+                itaque nihil repellat.</p>
+            </div>
           </div>
-          <div class="regional-text">
-            <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
-              ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
-              itaque nihil repellat.</p>
-          </div>
+         
         </div>
 
       </div>
@@ -332,42 +293,48 @@
           <div class="international-main">
             <div class="international-main-image">
               <img src="asset/images/main-back.png" alt="">
-
+              <div class="international-news-text">
+                <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
+                  ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
+                  itaque nihil repellat.</p>
+              </div>
             </div>
-            <div class="international-news-text">
-              <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
-                ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
-                itaque nihil repellat.</p>
-            </div>
+            
 
             <div class="International-heading mt-3">
               <h1>International News</h1>
             </div>
 
-            <div class="regional-content mt-4">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-            </div>
-
-            <div class="regional-content mt-3">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-            </div>
-
-            <div class="regional-content mt-3">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
+            <div class="regional-content-box">
+              <div class="regional-content">
+                <img src="asset/images/main-cards.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+              </div>
+    
+              <div class="regional-content">
+                <img src="asset/images/main-cards.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+              </div>
+    
+              <div class="regional-content">
+                <img src="asset/images/main-cards.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+    
+              </div>
+    
+              <div class="regional-content">
+                <img src="asset/images/main-cards.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+              </div>
+    
+              <div class="regional-content ">
+                <img src="asset/images/main-cards.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+              </div>
+    
+              
+    
             </div>
           </div>
 
@@ -390,53 +357,49 @@
 
         <div class="col-md-6 p-4 ">
           <h1>Editorial</h1>
-          <div class="international-main">
-            <div class="regional-content mt-4">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+          <div class="regional-content-box">
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
+  
+            </div>
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-            <div class="regional-content-1 regional-content mt-5">
+  
+            <div class="regional-content ">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
+  
+            
+  
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class="regional-image-1 regional-image mt-4">
-            <img src="asset/images/main-back.png" alt="">
+          <div class="col-md-6">
+            <div class="regional-image mt-4">
+              <img src="asset/images/main-back.png" alt="">
+              <div class="regional-text">
+                <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
+                  ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
+                  itaque nihil repellat.</p>
+              </div>
+            </div>
+           
           </div>
-          <div class="regional-text-1 regional-text">
-            <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
-              ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
-              itaque nihil repellat.</p>
-          </div>
-        </div>
-
       </div>
 
     </div>
@@ -454,47 +417,49 @@
 
         <div class="col-md-6 p-4 ">
           <h1>Features</h1>
-          <div class="international-main">
-            <div class="regional-content mt-4">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+          <div class="regional-content-box">
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+  
             </div>
+  
+            <div class="regional-content">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+            <div class="regional-content ">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+           
+  
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class=" regional-image mt-4">
-            <img src="asset/images/main-back.png" alt="">
+          <div class="col-md-6">
+            <div class="regional-image mt-4">
+              <img src="asset/images/main-back.png" alt="">
+              <div class="regional-text">
+                <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
+                  ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
+                  itaque nihil repellat.</p>
+              </div>
+            </div>
+           
           </div>
-          <div class="regional-text">
-            <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
-              ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
-              itaque nihil repellat.</p>
-          </div>
-        </div>
 
       </div>
 
@@ -513,47 +478,49 @@
 
         <div class="col-md-6 p-4 ">
           <h1>Perspectives</h1>
-          <div class="international-main">
-            <div class="regional-content mt-4">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+          <div class="regional-content-box">
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+  
             </div>
+  
+            <div class="regional-content">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+            <div class="regional-content ">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+           
+  
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class=" regional-image mt-4">
-            <img src="asset/images/main-back.png" alt="">
+          <div class="col-md-6">
+            <div class="regional-image mt-4">
+              <img src="asset/images/main-back.png" alt="">
+              <div class="regional-text">
+                <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
+                  ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
+                  itaque nihil repellat.</p>
+              </div>
+            </div>
+           
           </div>
-          <div class="regional-text">
-            <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
-              ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
-              itaque nihil repellat.</p>
-          </div>
-        </div>
 
       </div>
 
@@ -572,47 +539,49 @@
 
         <div class="col-md-6 p-4 ">
           <h1>Interviews</h1>
-          <div class="international-main">
-            <div class="regional-content mt-4">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+          <div class="regional-content-box">
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+  
             </div>
+  
+            <div class="regional-content">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+            <div class="regional-content ">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+            
+  
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class=" regional-image mt-4">
-            <img src="asset/images/main-back.png" alt="">
+          <div class="col-md-6">
+            <div class="regional-image mt-4">
+              <img src="asset/images/main-back.png" alt="">
+              <div class="regional-text">
+                <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
+                  ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
+                  itaque nihil repellat.</p>
+              </div>
+            </div>
+           
           </div>
-          <div class="regional-text">
-            <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
-              ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
-              itaque nihil repellat.</p>
-          </div>
-        </div>
 
       </div>
 
@@ -631,48 +600,49 @@
 
         <div class="col-md-6 p-4 ">
           <h1>Reports</h1>
-          <div class="international-main">
-            <div class="regional-content mt-4">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+          <div class="regional-content-box">
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
-              <img src="asset/images/main-cards.png" alt="">
-              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
             </div>
-
-            <div class="regional-content mt-5">
+  
+            <div class="regional-content">
               <img src="asset/images/main-cards.png" alt="">
               <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
-
-
-
+  
             </div>
+  
+            <div class="regional-content">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+            <div class="regional-content ">
+              <img src="asset/images/main-cards.png" alt="">
+              <p>Lorem ipsum dolor, sit amet consectetur elit?</p>
+            </div>
+  
+            
+  
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class=" regional-image mt-4">
-            <img src="asset/images/main-back.png" alt="">
+          <div class="col-md-6">
+            <div class="regional-image mt-4">
+              <img src="asset/images/main-back.png" alt="">
+              <div class="regional-text">
+                <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
+                  ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
+                  itaque nihil repellat.</p>
+              </div>
+            </div>
+           
           </div>
-          <div class="regional-text">
-            <h1>Empower reports AED 494 million Q1 2023 revenues</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci tempora officia alias! Sequi
-              ratione consequuntur iure, dolorem tenetur nostrum, natus vitae voluptates ea molestias placeat fuga
-              itaque nihil repellat.</p>
-          </div>
-        </div>
-
       </div>
 
     </div>
@@ -763,15 +733,15 @@
 
 
         <div class="footer-border col-md-2">
-          
-            <div class="follow-us find-on-ccme ">
-              <h1>FOLLOW US ON</h1>
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-              <a href="#"><i class="fab fa-twitter-square"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
 
-            </div>
-          
+          <div class="follow-us find-on-ccme ">
+            <h1>FOLLOW US ON</h1>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+
+          </div>
+
         </div>
 
       </div>

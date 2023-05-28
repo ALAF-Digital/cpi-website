@@ -10,13 +10,16 @@ h1,h2,h3,h4,h5,h6{
 }
 .container{
   max-width: 1350px;
-  
+  padding-inline: 0;
 }
 
 .navbar .container{
   border-bottom: 1px solid rgb(196, 191, 191);
   width: 92%;
 
+}
+.topBar .nav-link:hover{
+text-shadow: 0 0 1px black;
 }
 
 .navbar a{
@@ -25,7 +28,6 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 600;
 }
 .navbar-nav a:hover{
-  font-weight: 800;
   color: black ;
   transition: 0.3s;
   
@@ -48,44 +50,44 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 700;
 }
 .logo img{
- width:30%;
+ 
+max-width: 500px;
 }
 .under-navbar .container{
   border-top: 1px solid rgb(196, 191, 191);
-  margin-top: 10px;
 }
 
-.under-navbar a:hover{
+.under-navbar .nav-link{
   font-weight: 600;
-  background-color: rgb(23, 67, 23);
-  color: #fff !important;
+  padding: 11px !important;
   transition: 0.3s;
 }
-.font i{
-  font-size: 20px;
+.under-navbar .nav-link:hover,
+.under-navbar .nav-link.active{
+  background-color: rgb(23, 67, 23);
+  color: #fff !important;
+}
+.sociallinks a{
+  font-size: 24px;
   padding: 5px;
+  color: #adb0b8 !important;
+  transition: 0.5s;
 }
-.font .facebook{
- 
-  color: #4267B2;
-  
+.sociallinks a.facebook:hover{ 
+  color: #4267B2 !important;
 }
-.font .twitter{
-  color: #adb0b8;
+.sociallinks .twitter:hover{
+  color: #1da1f2 !important;
 }
-.search span{
- 
+.sociallinks .linkedin:hover{
+  color: #0a66c2 !important;
+}
+button.search{
   background-color: #4267B2;
   color: #fff;
-  
-  font-size: larger;
-  width: 40px;
-  height: 30px;
-  padding: 10px;
-  /* text-align: center; */
+  padding: 8px 12px;
   border: none;
-  border-radius: 0;
-}
+  }
 
 .bitzer .container{
 
@@ -102,10 +104,10 @@ h1,h2,h3,h4,h5,h6{
 }
 .swiper-slide {
     
-  height: 500px;
+  height: 407px;
   overflow: hidden;
-      position: relative;
-     
+  position: relative;
+  margin-bottom: 2.5rem;   
   }
   
 .swiper-slide img{
@@ -113,30 +115,32 @@ h1,h2,h3,h4,h5,h6{
   top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .swiper-pagination{
-  position: absolute;
-  top: 700px ;
-bottom: 0%;
-
+display: flex;
+gap: 5px;
+justify-content: center;
+}
+.swiper-pagination-bullet{
+  transition: 0.5s;
 }
 .swiper-pagination-bullet-active{
   background-color: grey;
- 
+ box-shadow: 0 0 0 4px white,0 0 0 6px grey;
 }
 .regional .container{
   border-top: 3px solid black;
   width: 90%;
   position: relative;
-  
 }
 
 .regional h1{
   font-weight: 600;
   color: #3e5a92;
   padding-top: 5px;
+  margin-bottom: 2rem;
 }
 .regional-content img{
   width: 100px;
@@ -144,9 +148,22 @@ bottom: 0%;
   object-fit: cover;
 
 }
+.regional-content-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .regional-content{
+  width: calc(50% - 10px);
   border-bottom: 1px solid black;
   display: flex;
+  padding: 10px 0;
+}
+
+
+.regional1 .regional-content-box .regional-content:nth-child(5),
+.regional1 .regional-content-box .regional-content:nth-child(6){
+  border: 0;
 }
 .regional-content-1{
   border: none;
@@ -158,6 +175,10 @@ bottom: 0%;
     margin-left: 10px;
 }
 
+.regional-image{
+  position: relative;
+  overflow: hidden;
+}
 .regional-image img{
   width: 100%;
   height: 450px;
@@ -167,18 +188,15 @@ bottom: 0%;
 }
 .regional-text{
   position: absolute;
-  /* top: 0%; */
   bottom: 0%;
-  right: 70px;
-  margin: auto;
   color: #fff ;
- width: 40%;
-
+ width: 100%;
+padding: 16px;
   
 }
 .regional-text h1{
   width: 100%;
-
+margin-bottom: 0;
   color: #fff;
   font-size: 25px;
 }
@@ -197,13 +215,12 @@ bottom: 0%;
 }
 .international-image img{
   height: 320px;
-  width: 90%;
+  width: 95%;
   object-fit: cover;
 }
 .international-image-1 img{
   height: 250px;
-  width: 90%;
-  /* object-fit: cover; */
+  width: 95%;
 }
 .international-image-2 img{
   border: 1px solid black;
@@ -212,17 +229,17 @@ bottom: 0%;
   width: 100%;
   height: 580px;
   object-fit: cover;
-  /* position: absolute; */
+}
+.international-main-image {
+  position: relative;
 }
 .international-news-text{
   position: absolute;
-   top: 55%;
-   transform: translateY(-55%);
-   right: 50px;
-   
-    width: 60%;
-    margin: auto;
-    color: #fff ;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
 
 }
 .international-news-text h1{
@@ -234,20 +251,15 @@ color: #3e5a92;
 }
 .regional-text-1{
   position: absolute;
-  /* top: 0%; */
   bottom: 6%;
   right: 70px;
-  /* width: 40%; */
   margin: auto;
   color: #fff ;
 }
 .regional-image-1 img{
   height: 500px;
 }
-.international-main .regional-content  p{
-  width: 40%;
-    /* margin: auto; */
-}
+
 .pre-footer .container{
   
   border-top: 3px solid black;
@@ -284,7 +296,7 @@ color: #3e5a92;
 .contact-us li{
   font-size: 12px;
   font-weight: 500;
-  margin: 5px;
+  margin-bottom: 5px;
   
 }
 .follow-us{
@@ -315,10 +327,7 @@ margin: 3px;
 
 /* About-page-css */
 
-/* .about-head .container{
-  width: 92%;
-  margin-top: 20px;
-} */
+
 
 .about-main .container{
   width: 92%;
@@ -330,13 +339,24 @@ margin: 3px;
   font-weight: 600;
  color: #3e5a92;
 }
-.about-para i{
-text-align: end;
+.aboutSocial a{
+  width: 30px;
+  height: 30px;
+display: grid;
+place-items: center;
+color: #000;
 border: 1px solid black;
-width: 100%;
-/* height: 20px; */
-text-align: center;
-padding: 3px;
+text-decoration: none;
+}
+
+.aboutSocial a.a1{
+  border-left: 0;
+}
+.aboutSocial p{
+  line-height: 1;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 10px;
 }
 .about-sub-heading h3{
   font-size: 20px;
@@ -368,7 +388,9 @@ bottom: 0%;
 .About-main-text p{
   font-size: 10px;
   margin-top: 5px;
-  /* width: 60%; */
+}
+.text-muted{
+  color: #adb0b8 !important;
 }
 .about-paragraph p{
   font-size: 17px;
@@ -385,9 +407,25 @@ width: 70%;
 }
 .sidebar{
   border-bottom: 1px solid black;
-  /* padding: 5px; */
   
 }
+.sidebar-border{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.sidebar-border::before {
+  content: '';
+  position: absolute;
+  top: 66px;
+  left: -20px;
+  width: 1px;
+  height: calc(100% - 75px);
+  background-color: black;
+}
+
 .sidebar-content img{
   width: 40%;
    height: 80px;
@@ -406,11 +444,6 @@ width: 70%;
   border: 1px solid black;
   height: 300px;
 }
-/* .sidebar-border{
-  border-left: 1px solid black;
-  padding-left: 10px;
-
-} */
 .bottom-content .container{
   width: 92%;
   border-top: 1px solid grey;
@@ -428,3 +461,7 @@ width: 70%;
 .footer-border{
   border-left: 1px solid black;
 }
+
+
+
+
